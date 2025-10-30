@@ -7,7 +7,8 @@ variable "aws_region" {
 variable "ami_id" {
   description = "The AMI ID to use for the EC2 instance"
   type        = string
-  # Default to Amazon Linux 2 AMI (update this for your region)
+  # Default to Amazon Linux 2 AMI (Note: AMI IDs are region-specific and change over time.
+  # Please replace this with a current AMI ID for your region before deploying.)
   default = "ami-0c55b159cbfafe1f0"
 }
 
